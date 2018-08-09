@@ -1,0 +1,45 @@
+body{
+	background-color:None
+	font-family:"Georgia";
+	font-size:30px;
+	margin: 0;
+}
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 1200px solid aliceblue;
+  border-right: 1200px solid transparent;
+  position: absolute;
+  top: 0px;
+  z-index: -100;
+}
+.main{
+	z-index: 100;
+}
+.name {
+	position: relative;
+	left: calc(50% - 102.9px);
+	top: 10px;
+	margin-bottom: 15px;
+}
+.socail_contact {
+	position: relative;
+	left: calc(50% - 478px);
+	margin-bottom: 7px;
+	font-size: 20px;
+}
+.highliter{
+	position: relative;
+	left: calc(50% - 282.25px);
+	margin-bottom: 7px;
+	font-size: 25px;
+}
+.desg_header{
+	position: relative;
+	left: calc(50% - 286.6585px);
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+#work_ex{
+	position: relative;
+}
